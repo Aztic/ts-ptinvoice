@@ -1,0 +1,33 @@
+{
+  "name": "ts-ptinvoice",
+  "version": "1.0.0",
+  "description": "Parser for portugal QR Code data invoices",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aztic/ts-ptinvoice.git"
+  },
+  "keywords": [
+    "invoice",
+    "portugal"
+  ],
+  "author": "Jhosevic Castañeda",
+  "license": "EUPL-1.2",
+  "bugs": {
+    "url": "https://github.com/Aztic/ts-ptinvoice/issues"
+  },
+  "files": [
+    "/dist"
+  ],
+  "homepage": "https://github.com/Aztic/ts-ptinvoice#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "ts-jest": "^27.0.7"
+  }
+}
