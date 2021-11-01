@@ -147,7 +147,7 @@ class PortugalQrCodeDataParser {
     static getTaxCountryRegions(qrDataDictionary) {
         const regions = [];
         const possibleRegions = ["I", "J", "K"];
-        for (let region in possibleRegions) {
+        for (let region of possibleRegions) {
             const containsTaxCountryRegion = qrDataDictionary[`${region}1`] !== undefined;
             if (!containsTaxCountryRegion) {
                 continue;

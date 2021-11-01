@@ -11,6 +11,7 @@ npm test
 
 ## TODO
 - Minified output
+- Add more tests
 
 ## License
 EUPL v1.2

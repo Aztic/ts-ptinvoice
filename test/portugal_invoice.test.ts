@@ -224,5 +224,8 @@ describe('Portugal Invoice QR Data parser', () => {
     expect(
       () => PortugalInvoiceQrParser.parseData(qrData)
     ).not.toThrow(PortugalQrCodeDataParserException);
+    var parsedInvoice = PortugalInvoiceQrParser.parseData(qrData);  
+    expect(parsedInvoice.taxCountryRegions.length).toBeGreaterThanOrEqual(1);
+    expect(parsedInvoice.taxCountryRegions[0].taxCountryRegion).toBe('PT');
   })
 });
